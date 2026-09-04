@@ -1,4 +1,24 @@
+//fundion tipo flecha
+var restar  = (a,b) => {
+    var r  =  a-b;
+    console.log(r)
+
+
+}
+
+
+
+
+
+
+sumar(5,9);
+
+sumar(20,20);
+
+restar(25,10)
+
 function calcular(){
+
 
 
     var numero1 = document.getElementById("numero1");
@@ -10,3 +30,11 @@ var ressultado =document.getElementById("ressultado");
 resultado.innerText = "El resultado es: " + multiplicacion;
     
 }
+// funcion tradicional
+function sumar(a,b){
+    var r  =  a+b;
+    console.log(r)
+
+}
+
+
